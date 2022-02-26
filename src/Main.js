@@ -18,7 +18,7 @@ const Main = () => {
         biography: 'This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.',
         rrss: [
             { icon: <FaEnvelope />, url: 'mailto:ljavierrodriguez@gmail.com', text: 'ljavierrodriguez@gmail.com' },
-            { icon: <FaPhone />, url: 'tel:+56930301111', text: '+56 9 3030 11 11' },
+            { icon: <FaPhone />, url: 'tel:+569303011122', text: '+56 9 3030 11 22' },
             { icon: <FaLinkedin />, url: 'https://linkedin.com/in/luisjrodriguezo', text: 'luisjrodriguezo' },
             { icon: <FaFacebook />, url: 'https://facebook.com/ljavierrodriguez', text: 'ljavierrodriguez' },
             { icon: <FaInstagram />, url: 'https://instagram.com/ljavierrodriguez', text: 'ljavierrodriguez' },
