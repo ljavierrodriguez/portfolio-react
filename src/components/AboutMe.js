@@ -25,7 +25,7 @@ const AboutMe = ({ aboutMe, Component }) => {
                                                     aboutMe.rrss.map((rrss, index) => {
                                                         return (
                                                             <li className={"animate__animated animate__fadeInRight" + (index > 0 ? ` animate__delay-${index + 1}s ` : " ") + "list-group-item list-group-item-action"} key={index}>
-                                                                {rrss.icon} <a href={rrss.url} target="_blank">{rrss.text}</a>
+                                                                {rrss.icon} <a href={rrss.url} target="_blank" rel="noreferrer">{rrss.text}</a>
                                                             </li>
                                                         )
                                                     })
